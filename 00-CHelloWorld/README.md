@@ -1,5 +1,3 @@
-# Repositorio SSL
-
 ## Compilador seleccionado
 - **Compilador**: GCC (GNU Compiler Collection)
 - **Versión del compilador**: 13.2.0
