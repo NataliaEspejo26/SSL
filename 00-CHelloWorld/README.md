@@ -1,4 +1,11 @@
 ## Compilador seleccionado
 - **Compilador**: GCC (GNU Compiler Collection)
 - **Versión del compilador**: 13.2.0
+- **Versión del lenguaje C standard**: C17/18
 - **Versión del lenguaje C soportada**: C11, C18, C23
+- **¿Cómo supe la versión del lenguaje C soportada?**
+- Ejecuté los siguientes comandos en terminal:
+- gcc -std=c11 hello.c -o hello
+- gcc -std=c18 hello.c -o hello
+- gcc -std=c2x hello.c -o hello
+- Cada comando compiló sin errores. Luego hice correr el programa con ./hello y verifiqué que la salida fuera la esperada.
