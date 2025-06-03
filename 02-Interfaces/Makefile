@@ -1,4 +1,4 @@
-# Ejecuto desde el GitBash, no me corre con Powershell
+# Ejecuto desde el GitBash, no con Powershell
 SHELL := C:/Program\ Files/Git/usr/bin/bash.exe 
 
 # Desde acá se entrega el tp
